@@ -70,7 +70,7 @@ const Payment = () => {
               <Text fontSize={"20px"} fontWeight={"550"} mb={"20px"}>
                 Payment Method
               </Text>
-              <Text fontSize={"10px"}>100% SAFE PAYMENT</Text>
+              <Text fontSize={"10px"}>100% SAFE PAYMENT.</Text>
             </Flex>
             <Flex>
               <Text fontSize={"10px"}>PAY IN CASH</Text>
