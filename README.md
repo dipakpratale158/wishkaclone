@@ -1,6 +1,3 @@
-<b>Project Name</b> - WishKart (Clone of Meesho)<br>
-<b>Team Members-</b><br>Yash Bankar <br>Pranav Narwade<br>Gaurav Pachlore <br><br>
-<b>Deployed Link-</b> https://wish-kart.vercel.app/<br>
 
 <h1 align ="center">Home Page</h1>
 
