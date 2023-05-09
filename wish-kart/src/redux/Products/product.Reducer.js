@@ -11,22 +11,22 @@ let initialData = {
   error: false,
   data: [],
 };
-
+/////destructuring type, payload  
 const ProductReducer = (state = initialData, { type, payload }) => {
   console.log("Product Reducer", "type", type, "payload", payload);
 
   switch (type) {
     case GET_PRODUCTS_LOADING: {
       return {
-        ...state,
+        ...state,  //////existing state
         loading: true,
       };
     }
     case GET_PRODUCTS_SUCCESS: {
       return {
-        ...state,
+        ...state,    //////existing state
         loading: false,
-        data: payload,
+        data: payload,   //
       };
     }
     case ADD_NEW_PRODUCT: {
@@ -60,3 +60,7 @@ const ProductReducer = (state = initialData, { type, payload }) => {
 };
 
 export default ProductReducer;
+
+
+
+/////////////go store.js file

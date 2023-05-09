@@ -13,6 +13,7 @@ import axios from "axios";
 
 // get users
 export const Get_Users_Data = (input) => async (dispatch) => {
+  //first you have to get using dispatch
   dispatch({ type: USER_LOADING });
   let user = "";
   let found = false;

@@ -3,3 +3,6 @@ export const GET_PRODUCTS_SUCCESS = "product/get/succses";
 export const GET_PRODUCTS_ERROR = "product/get/error";
 export const ADD_NEW_PRODUCT = "product/add";
 export const REMOVE_PRODUCT = "product/remove";
+
+
+//////action types

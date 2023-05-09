@@ -28,3 +28,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+//after adding compont add router also

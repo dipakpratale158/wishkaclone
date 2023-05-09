@@ -6,7 +6,6 @@ import {
   REMOVE_PRODUCT,
 } from "./product.actionTypes.js";
 import axios from "axios";
-
 export const getProducts = async (dispatch) => {
   dispatch({ type: GET_PRODUCTS_LOADING });
   try {
@@ -14,7 +13,8 @@ export const getProducts = async (dispatch) => {
       "https://meesho-backend-3037.onrender.com/products"
     );
 
-    // console.log(res.data)
+    // console.log(res.data)  /////your product data get 
+
     dispatch({ type: GET_PRODUCTS_SUCCESS, payload: res.data });
   } catch (error) {
     dispatch({ type: GET_PRODUCTS_ERROR, payload: error.message });
@@ -45,11 +45,13 @@ export const removeProduct = (id) => async (dispatch) => {
     }
   );
 
+
+  ///
   try {
     let res = await axios.get(
       "https://meesho-backend-3037.onrender.com/products"
     );
-    console.log("after Delete", res.data);
+    console.log("after Delete", res.data);   ///your product data get after removing
     dispatch({ type: REMOVE_PRODUCT, payload: res.data });
   } catch (error) {
     dispatch({ type: GET_PRODUCTS_ERROR, payload: error.message });

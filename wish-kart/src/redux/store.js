@@ -10,7 +10,7 @@ import thunk from "redux-thunk";
 import ProductReducer from "./Products/product.Reducer.js";
 
 import UserReducer from "./user/user.reducer.js";
-
+//combine reducer take object
 const rootReducer = combineReducers({
   ProductsManager: ProductReducer,
   UserManager: UserReducer,
@@ -22,3 +22,6 @@ export const store = legacy_createStore(
   rootReducer,
   comp(applyMiddleware(thunk))
 );
+
+
+//go to index.js add provider   link react and redux

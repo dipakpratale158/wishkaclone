@@ -23,3 +23,12 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+
+
+
+
+//after completein adding provider go to component and create
+//after completein component go to app.js an add component
